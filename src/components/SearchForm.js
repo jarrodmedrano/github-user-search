@@ -19,6 +19,7 @@ class SearchForm extends Component {
   }
 
   setSearchTerm = e => {
+    e.preventDefault();
     this.setState({
       searchTerm: e.target.value
     });

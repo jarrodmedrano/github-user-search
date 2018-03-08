@@ -21,8 +21,10 @@
     "eject": "react-scripts eject",
     "dev": "node server.js",
     "build": "next build",
+    "build-cra": "react-scripts build",
     "export": "next export",
-    "deploy": "gh-pages -d ./out"
+    "deploy": "gh-pages -d ./out",
+    "deploy-cra": "gh-pages -d ./build"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
