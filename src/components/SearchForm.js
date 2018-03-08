@@ -40,12 +40,6 @@ class SearchForm extends Component {
                   <a href={item.html_url}>{item.login}</a>
                 </Card.Description>
               </Card.Content>
-              <Card.Content extra>
-                <a>
-                  <Icon name="user" />
-                  <a href={item.followers_url}>Followers</a>
-                </a>
-              </Card.Content>
             </Card>
           );
         })}
